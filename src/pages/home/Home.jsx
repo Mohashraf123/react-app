@@ -1,8 +1,10 @@
 import './Home.css'
-import React from 'react'
+import Card from '../../components/Card'
 
 export default function Home() {
   return (
-    <div>Home</div>
+    <div>
+        <Card/>
+    </div>
   )
 }
